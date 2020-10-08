@@ -1,0 +1,170 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+.navbar{
+  text-align: center;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: gray;
+  color:white;
+  text-decoration: none;
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.navbar-main a {
+  text-decoration: none;
+  color: white;
+}
+.navbar-form{
+  display: flex; 
+}
+.navbar-form a{
+  text-decoration: none;
+  color: white;
+}
+.navbar-form h4{
+  padding-right: 5px;
+}
+
+.user-icon{
+  max-width: 50px;
+}
+.post-info{
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.add-post{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: slategrey;
+  padding: 8px;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.add-form{
+  padding: 11px;
+  margin: 0 15px;
+  border-radius: 5px;
+  border: none;
+  width: 70%;
+}
+.form-add-post{
+  display: contents;
+}
+.comment-add-btn{
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: seagreen;
+}
+.user{
+  text-align: center; 
+  margin:20px;
+}
+.post-list-item-user{
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+.post-list-item-user h2{
+  padding-left: 5px;
+}
+.post-list{
+  margin: 20px;
+}
+.post-text{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.post-icon{
+  display: flex;
+  padding-bottom: 15px;
+  border-bottom: 1px solid;
+}
+.post-list-item{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #909090;
+  width: 65%;
+  border-radius: 10px;
+}
+.post-icon-like{
+  max-width: 20px;
+}
+.post-icon-comment{
+  max-width: 20px;
+}
+
+.like-btn{
+  width: 3%;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+}
+.post-icon-like-number{
+  margin: 0 5px;
+  align-items: center;
+}
+.add-comment{
+  padding: 10px;
+  background-color: initial;
+  display: flex;
+}
+.add-comment-form{
+ display: flex;
+}
+.comment-info{
+  display: flex;
+  padding: 15px;
+  background-color: darkcyan;
+  align-items: center;
+  border-bottom: 1px solid;
+}
+.comment-info p {
+  padding: 0 10px;
+}
+
+.auth{
+  background-color: teal;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding:10px;
+  border-radius: 5px;
+}
+.auth-label{
+  color:white;
+  display: block;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.auth-input{
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 50%;
+  margin-bottom: 10px;
+  height: 30px;
+}
+.auth-btn{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
+  width: 40%;
+  border: none;
+  border-radius: 20px;
+  background-color: aliceblue;
+  color: revert;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 40px;
+}
