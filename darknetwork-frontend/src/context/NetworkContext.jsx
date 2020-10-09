@@ -9,14 +9,14 @@ export const NetworkContextProvider = (props) => {
   const [selectedPost, setselectedPost] = useState(null);
 
   const addPosts = (post) => {
-    setPosts([...posts,post])
-  }
+    setPosts([...posts, post]);
+  };
   const addUser = (user) => {
-    setUsers([...users,user])
-  }
+    setUsers([...users, user]);
+  };
   const addComments = (comment) => {
-    setComments([...comments,comment])
-  }
+    setComments([...comments, comment]);
+  };
   return (
     <NetworkContext.Provider
       value={{
@@ -30,7 +30,7 @@ export const NetworkContextProvider = (props) => {
         setComments,
         addComments,
         selectedPost,
-        setselectedPost
+        setselectedPost,
       }}
     >
       {props.children}
