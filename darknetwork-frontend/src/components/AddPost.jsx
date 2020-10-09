@@ -10,9 +10,6 @@ const AddPost = ({userId, userName}) => {
   const [todos, setTodos] = React.useState([])
 
 
-
-
-
   const addForm = async (e) => {
     e.preventDefault();
  

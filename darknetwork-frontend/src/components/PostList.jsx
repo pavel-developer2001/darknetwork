@@ -5,7 +5,6 @@ import NetworkApi from '../apis/NetworkApi'
 
 
 const PostList = ({userId}) => {
-
     const [post, setPost] = React.useState([]) 
     React.useEffect(() => { 
     const fetchData = async () => {
